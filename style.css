@@ -1,0 +1,123 @@
+/*selector universal es el asterisco*/
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /*espacio dentro del borde*/
+    padding: 0px;
+    /*espacio fuera del borde*/
+    margin: 0px;
+}
+
+
+header {
+    background-color: darkslategray;
+    min-height: 10vh;
+    font-size: 18px;
+}
+
+main {
+    background-color: black;
+    text-align: center;
+    min-height: 80vh;
+    font-size: 16px;
+
+    
+
+    /* opccion dificil para centrar algo
+    display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+}
+
+#input-busqueda{
+    background-color: darkslategray;
+}
+
+footer {
+    background-color: darkslategrey;
+    font-size: 18px;
+}
+
+/* estilos para elementos de lista de lado a lado*/
+
+li {
+    display: inline-block;
+    padding: 8px;
+}
+
+footer ul {
+    display: inline-block;
+}
+
+/*estilos para elementos de listado*/
+header {
+    text-align: end;
+}
+
+.icono {
+    background-color: darkslategray;
+    padding: 0px;
+    margin: 0px;
+    width: 38px;
+    height: 30px;
+    /*bordes*/
+    border: none;
+}
+
+#logo {
+    padding-top: 7em;
+    margin-bottom: 1em;
+}
+
+#buscador {
+    max-width: 50vw;
+    min-height: 80px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: darkslategray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor-buscador {
+    display: flex;
+    justify-content: center;
+}
+
+#buscador input {
+    flex-grow: 1;
+    outline: none;
+    border: none;
+}
+
+/*display flex para menu*/
+#menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#botones-busqueda button {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    /*margen de izquierda- derecha y despues arriba-abajo*/
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    /*para convertir el cursor en manita*/
+    cursor: pointer;
+    user-select: none;
+}
+
+#botones-busqueda button:hover {
+    border: 1px solid #27449c;
+}
