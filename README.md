@@ -1,15 +1,15 @@
 # Mi primer proyecto sobre un clon de google de Tecnolochicas PRO
 
-Este proyecto consiste en la imitacion de la plataforma google hecho en clase del curso TECNOLOCHICAS-PRO
+Este proyecto consiste en una imitacion de la plataforma google hecho en el curso TECNOLOCHICAS-PRO
 
-Fue desarrollado con HTML y CSS .
 
-[Proyecto en linea](https://clongoogleeli.netlify.app/)
+
+[Proyecto en linea](https://funny-rabanadas-59b0a6.netlify.app/)
 
 - Capturas de pantalla
 
 
-![Sección de vista previa](absset/clongoogle.png)
+![Sección de vista previa](assets/logo.png)
 
 
 
