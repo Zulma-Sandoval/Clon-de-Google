@@ -8,8 +8,8 @@ Este proyecto consiste en una imitacion de la plataforma google hecho en el curs
 
 - Capturas de pantalla
 
-
 ![Sección de vista previa](assets/logo.png)
+![proyecto](assets/clon_google.jpeg)
 
 
 
